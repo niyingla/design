@@ -1,7 +1,7 @@
 package com.pikaqiu.design.principle.compositionaggregation;
 
 /**
- * Created by geely
+ * 尽量使用对象的组合和聚合而不是继承达成复用
  */
 public class Test {
     public static void main(String[] args) {
