@@ -1,7 +1,8 @@
 package com.pikaqiu.design.principle.liskovsubstitution;
 
 /**
- * Created by geely
+ * 设计时避免继承泛滥，父子类行为不一致。
+ * 对继承形成约束
  */
 public class Test {
     public static void resize(Rectangle rectangle){

@@ -3,7 +3,7 @@ package com.pikaqiu.design.principle.liskovsubstitution.methodinput;
 import java.util.Map;
 
 /**
- * Created by geely
+ * 子类入参 更宽松
  */
 public class Child extends Base {
 //    @Override

@@ -1,7 +1,7 @@
 package com.pikaqiu.design.principle.liskovsubstitution;
 
 /**
- * Created by geely
+ * 长方形
  */
 public class Rectangle implements Quadrangle {
     private long length;

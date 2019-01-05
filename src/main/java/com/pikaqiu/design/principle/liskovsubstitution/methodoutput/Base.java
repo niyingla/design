@@ -3,7 +3,7 @@ package com.pikaqiu.design.principle.liskovsubstitution.methodoutput;
 import java.util.Map;
 
 /**
- * Created by geely
+ * 父类 返回更宽松
  */
 public abstract class Base {
     public abstract Map method();
