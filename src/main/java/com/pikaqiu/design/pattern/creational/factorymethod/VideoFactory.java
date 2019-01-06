@@ -1,7 +1,7 @@
 package com.pikaqiu.design.pattern.creational.factorymethod;
 
 /**
- * Created by geely
+ * 父工厂抽象类
  */
 public abstract class VideoFactory {
 

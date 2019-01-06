@@ -1,7 +1,7 @@
 package com.pikaqiu.design.pattern.creational.factorymethod;
 
 /**
- * Created by geely
+ * 实际工厂类
  */
 public class FEVideoFactory extends VideoFactory{
     @Override
