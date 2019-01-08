@@ -1,7 +1,7 @@
 package com.pikaqiu.design.pattern.creational.builder;
 
 /**
- * Created by geely
+ * 教练
  */
 public class Coach {
     private CourseBuilder courseBuilder;
