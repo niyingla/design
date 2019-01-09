@@ -1,10 +1,11 @@
 package com.pikaqiu.design.pattern.creational.singleton;
 
 /**
- * Created by geely
+ * xiaoye
  */
 public class LazySingleton {
     private static LazySingleton lazySingleton = null;
+
     private LazySingleton(){
         if(lazySingleton != null){
             throw new RuntimeException("单例构造器禁止反射调用");
