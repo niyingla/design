@@ -13,6 +13,7 @@ public class Test {
         Course course = new Course.CourseBuilder().buildCourseName("Java设计模式精讲").buildCoursePPT("Java设计模式精讲PPT").buildCourseVideo("Java设计模式精讲视频").build();
         System.out.println(course);
 
+    //                                      创建建造者  通过建造者提供的方法建造值  建造需要构建的对象
         Set<String> set = ImmutableSet.<String>builder().add("a").add("b").build();
 
         System.out.println(set);
