@@ -1,7 +1,7 @@
 package com.pikaqiu.design.pattern.creational.singleton;
 
 /**
- * xiaoye
+ * 懒汉式
  */
 public class LazySingleton {
     private static LazySingleton lazySingleton = null;

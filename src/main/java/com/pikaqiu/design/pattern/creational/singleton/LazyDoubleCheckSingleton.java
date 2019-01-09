@@ -1,7 +1,7 @@
 package com.pikaqiu.design.pattern.creational.singleton;
 
 /**
- * Created by geely
+ * 双重检查 懒汉式
  */
 public class LazyDoubleCheckSingleton {
     private volatile static LazyDoubleCheckSingleton lazyDoubleCheckSingleton = null;
