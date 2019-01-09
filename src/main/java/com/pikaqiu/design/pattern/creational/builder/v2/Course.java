@@ -1,7 +1,7 @@
 package com.pikaqiu.design.pattern.creational.builder.v2;
 
 /**
- * Created by geely
+ * 建造者模式 经常被运用在初始化配置
  */
 public class Course {
 
@@ -69,6 +69,7 @@ public class Course {
         }
 
         public Course build(){
+            //统一初始化
             return new Course(this);
         }
 
