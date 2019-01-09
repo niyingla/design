@@ -2,6 +2,7 @@ package com.pikaqiu.design.pattern.creational.builder.v2;
 
 /**
  * 建造者模式 经常被运用在初始化配置
+ *
  */
 public class Course {
 
@@ -13,6 +14,10 @@ public class Course {
     //question & answer
     private String courseQA;
 
+    /**
+     * 初始化构造器
+     * @param courseBuilder
+     */
     public Course(CourseBuilder courseBuilder) {
         this.courseName = courseBuilder.courseName;
         this.coursePPT = courseBuilder.coursePPT;
@@ -33,7 +38,12 @@ public class Course {
                 '}';
     }
 
+
+    /**
+     * 类的建造者就是类中
+     */
     public static class CourseBuilder{
+        //构造参数 可以有默认值 通过buid方法重新设置
         private String courseName;
         private String coursePPT;
         private String courseVideo;
@@ -42,6 +52,11 @@ public class Course {
         //question & answer
         private String courseQA;
 
+        /**
+         * 链式调用  返回本身
+         * @param courseName
+         * @return
+         */
         public CourseBuilder buildCourseName(String courseName){
             this.courseName = courseName;
             return this;
@@ -69,7 +84,7 @@ public class Course {
         }
 
         public Course build(){
-            //统一初始化
+            //构造创建外部实例
             return new Course(this);
         }
 
