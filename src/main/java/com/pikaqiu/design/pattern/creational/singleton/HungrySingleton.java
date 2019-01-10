@@ -3,7 +3,7 @@ package com.pikaqiu.design.pattern.creational.singleton;
 import java.io.Serializable;
 
 /**
- * Created by geely
+ * 饿汉式
  */
 public class HungrySingleton implements Serializable,Cloneable{
 
@@ -21,6 +21,11 @@ public class HungrySingleton implements Serializable,Cloneable{
         return hungrySingleton;
     }
 
+
+    /**
+     *
+     * @return
+     */
     private Object readResolve(){
         return hungrySingleton;
     }

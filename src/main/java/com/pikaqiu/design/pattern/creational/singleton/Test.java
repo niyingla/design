@@ -27,6 +27,7 @@ public class Test {
 //        EnumInstance instance = EnumInstance.getInstance();
 //        instance.setData(new Object());
 //
+//        序列化与反序列化数据 使之形成多个对象
 //        ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("singleton_file"));
 //        oos.writeObject(instance);
 //
