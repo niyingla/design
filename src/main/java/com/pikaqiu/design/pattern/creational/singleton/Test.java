@@ -10,12 +10,12 @@ public class Test {
     public static void main(String[] args) throws IOException, ClassNotFoundException, NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
 //        LazySingleton lazySingleton = LazySingleton.getInstance();
 
-        System.out.println("main thread"+ThreadLocalInstance.getInstance());
-        System.out.println("main thread"+ThreadLocalInstance.getInstance());
-        System.out.println("main thread"+ThreadLocalInstance.getInstance());
-        System.out.println("main thread"+ThreadLocalInstance.getInstance());
-        System.out.println("main thread"+ThreadLocalInstance.getInstance());
-        System.out.println("main thread"+ThreadLocalInstance.getInstance());
+        System.out.println("main thread "+ThreadLocalInstance.getInstance());
+        System.out.println("main thread "+ThreadLocalInstance.getInstance());
+        System.out.println("main thread "+ThreadLocalInstance.getInstance());
+        System.out.println("main thread "+ThreadLocalInstance.getInstance());
+        System.out.println("main thread "+ThreadLocalInstance.getInstance());
+        System.out.println("main thread "+ThreadLocalInstance.getInstance());
 
         Thread t1 = new Thread(new T());
         Thread t2 = new Thread(new T());
