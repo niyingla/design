@@ -34,7 +34,7 @@ public class Test {
 //        File file = new File("singleton_file");
 //        ObjectInputStream ois = new ObjectInputStream(new FileInputStream(file));
 //
-////        HungrySingleton newInstance = (HungrySingleton) ois.readObject();
+//        HungrySingleton newInstance = (HungrySingleton) ois.readObject();
 //        EnumInstance newInstance = (EnumInstance) ois.readObject();
 //
 //        System.out.println(instance.getData());
@@ -46,7 +46,7 @@ public class Test {
 
 //        Class objectClass = LazySingleton.class;
 //        Class objectClass = EnumInstance.class;
-////
+//
 //        Constructor constructor = objectClass.getDeclaredConstructor(String.class,int.class);
 //
 //        constructor.setAccessible(true);
