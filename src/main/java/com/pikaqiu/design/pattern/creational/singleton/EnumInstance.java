@@ -5,6 +5,7 @@ package com.pikaqiu.design.pattern.creational.singleton;
  */
 public enum EnumInstance {
     INSTANCE{
+        @Override
         protected  void printTest(){
             System.out.println("Geely Print Test");
         }
