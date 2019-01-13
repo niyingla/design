@@ -6,6 +6,10 @@ package com.pikaqiu.design.pattern.creational.singleton;
 public class ThreadLocalInstance {
     private static final ThreadLocal<ThreadLocalInstance> threadLocalInstanceThreadLocal
              = new ThreadLocal<ThreadLocalInstance>(){
+        /**
+         * 数据初始化
+         * @return
+         */
         @Override
         protected ThreadLocalInstance initialValue() {
             return new ThreadLocalInstance();
