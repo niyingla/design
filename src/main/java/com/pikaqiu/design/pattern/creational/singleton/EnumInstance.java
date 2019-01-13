@@ -1,7 +1,8 @@
 package com.pikaqiu.design.pattern.creational.singleton;
 
 /**
- * Created by geely
+ * @author xiaoye
+ * 枚举实现方法
  */
 public enum EnumInstance {
     INSTANCE{
