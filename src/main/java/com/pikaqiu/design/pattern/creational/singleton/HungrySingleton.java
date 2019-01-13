@@ -3,7 +3,7 @@ package com.pikaqiu.design.pattern.creational.singleton;
 import java.io.Serializable;
 
 /**
- * 饿汉式
+ * 饿汉式 类加载就生成
  */
 public class HungrySingleton implements Serializable,Cloneable{
 
