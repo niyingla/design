@@ -2,9 +2,13 @@ package com.pikaqiu.design.pattern.creational.singleton;
 
 /**
  * @author xiaoye
- * 枚举实现方法
+ * 枚举实现单利
  */
 public enum EnumInstance {
+
+    /**
+     * 枚举实现方法
+     */
     INSTANCE{
         @Override
         protected  void printTest(){
