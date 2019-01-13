@@ -1,7 +1,7 @@
 package com.pikaqiu.design.pattern.creational.singleton;
 
 /**
- * Created by geely
+ * 线程内 单例
  */
 public class ThreadLocalInstance {
     private static final ThreadLocal<ThreadLocalInstance> threadLocalInstanceThreadLocal
