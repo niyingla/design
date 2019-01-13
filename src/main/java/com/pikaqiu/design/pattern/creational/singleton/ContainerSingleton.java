@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by geely
+ * 单例容器
  */
 public class ContainerSingleton {
 
