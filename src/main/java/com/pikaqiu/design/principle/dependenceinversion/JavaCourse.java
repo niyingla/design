@@ -1,7 +1,7 @@
 package com.pikaqiu.design.principle.dependenceinversion;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public class JavaCourse implements ICourse {
 

@@ -1,7 +1,7 @@
 package com.pikaqiu.design.principle.demeter;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public class Course {
 }

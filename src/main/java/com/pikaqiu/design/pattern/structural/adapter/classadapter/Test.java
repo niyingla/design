@@ -1,7 +1,7 @@
 package com.pikaqiu.design.pattern.structural.adapter.classadapter;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public class Test {
     public static void main(String[] args) {

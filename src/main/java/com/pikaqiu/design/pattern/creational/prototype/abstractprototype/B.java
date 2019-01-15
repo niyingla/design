@@ -1,7 +1,7 @@
 package com.pikaqiu.design.pattern.creational.prototype.abstractprototype;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public class B extends A {
     public static void main(String[] args) throws CloneNotSupportedException {

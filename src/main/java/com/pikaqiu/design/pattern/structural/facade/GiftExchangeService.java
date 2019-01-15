@@ -1,7 +1,7 @@
 package com.pikaqiu.design.pattern.structural.facade;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public class GiftExchangeService {
     private QualifyService qualifyService = new QualifyService();

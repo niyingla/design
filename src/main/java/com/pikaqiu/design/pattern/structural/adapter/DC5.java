@@ -1,7 +1,7 @@
 package com.pikaqiu.design.pattern.structural.adapter;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public interface DC5 {
     int outputDC5V();

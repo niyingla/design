@@ -1,7 +1,7 @@
 package com.pikaqiu.design.pattern.structural.decorator.v1;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public class Battercake {
     protected String getDesc(){

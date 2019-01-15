@@ -1,7 +1,7 @@
 package com.pikaqiu.design.pattern.creational.singleton;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public class T implements Runnable {
     @Override

@@ -1,7 +1,7 @@
 package com.pikaqiu.design.pattern.creational.builder;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public class CourseActualBuilder extends CourseBuilder {
 

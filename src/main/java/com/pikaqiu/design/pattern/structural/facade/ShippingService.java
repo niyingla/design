@@ -1,7 +1,7 @@
 package com.pikaqiu.design.pattern.structural.facade;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public class ShippingService {
     public String shipGift(PointsGift pointsGift){

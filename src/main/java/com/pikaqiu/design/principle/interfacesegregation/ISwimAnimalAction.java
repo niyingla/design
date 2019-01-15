@@ -1,7 +1,7 @@
 package com.pikaqiu.design.principle.interfacesegregation;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public interface ISwimAnimalAction {
     void swim();

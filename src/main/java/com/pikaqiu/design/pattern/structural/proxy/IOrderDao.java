@@ -1,7 +1,7 @@
 package com.pikaqiu.design.pattern.structural.proxy;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public interface IOrderDao {
     int insert(Order order);

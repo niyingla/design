@@ -1,7 +1,7 @@
 package com.pikaqiu.design.pattern.structural.flyweight;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public interface Employee {
     void report();

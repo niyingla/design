@@ -3,7 +3,7 @@ package com.pikaqiu.design.principle.liskovsubstitution.methodinput;
 import java.util.HashMap;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public class Base {
     public void method(HashMap map){

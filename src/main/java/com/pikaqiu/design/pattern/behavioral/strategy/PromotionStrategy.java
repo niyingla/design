@@ -1,7 +1,7 @@
 package com.pikaqiu.design.pattern.behavioral.strategy;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public interface PromotionStrategy {
     void doPromotion();

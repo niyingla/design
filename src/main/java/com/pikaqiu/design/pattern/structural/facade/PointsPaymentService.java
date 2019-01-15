@@ -1,7 +1,7 @@
 package com.pikaqiu.design.pattern.structural.facade;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public class PointsPaymentService {
     public boolean pay(PointsGift pointsGift){

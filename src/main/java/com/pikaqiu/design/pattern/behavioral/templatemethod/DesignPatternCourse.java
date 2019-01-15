@@ -1,7 +1,7 @@
 package com.pikaqiu.design.pattern.behavioral.templatemethod;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public class DesignPatternCourse extends ACourse {
     @Override

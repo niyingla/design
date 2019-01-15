@@ -1,7 +1,7 @@
 package com.pikaqiu.design.pattern.structural.adapter;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public class AC220 {
     public int outputAC220V(){

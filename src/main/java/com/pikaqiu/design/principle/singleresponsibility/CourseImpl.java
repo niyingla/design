@@ -1,7 +1,7 @@
 package com.pikaqiu.design.principle.singleresponsibility;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public class CourseImpl implements ICourseManager,ICourseContent {
     @Override
