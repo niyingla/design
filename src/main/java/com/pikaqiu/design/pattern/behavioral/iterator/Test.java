@@ -1,7 +1,7 @@
 package com.pikaqiu.design.pattern.behavioral.iterator;
 
 /**
- * Created by geely.
+ * @author xiaoye
  */
 public class Test {
 
