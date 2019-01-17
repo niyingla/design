@@ -1,6 +1,7 @@
 package com.pikaqiu.design.pattern.structural.facade;
 
 /**
+ * 积分礼物
  * @author xiaoye
  */
 public class PointsGift {
