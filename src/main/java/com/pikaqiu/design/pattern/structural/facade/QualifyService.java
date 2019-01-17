@@ -1,7 +1,7 @@
 package com.pikaqiu.design.pattern.structural.facade;
 
 /**
- * 子系统
+ * 资格子系统
  * @author xiaoye
  */
 public class QualifyService {

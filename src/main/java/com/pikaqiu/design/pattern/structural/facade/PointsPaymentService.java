@@ -1,6 +1,7 @@
 package com.pikaqiu.design.pattern.structural.facade;
 
 /**
+ * 积分支付服务
  * @author xiaoye
  */
 public class PointsPaymentService {

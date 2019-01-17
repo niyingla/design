@@ -1,6 +1,7 @@
 package com.pikaqiu.design.pattern.structural.facade;
 
 /**
+ * 外观模式
  * @author xiaoye
  */
 public class Test {

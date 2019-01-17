@@ -1,6 +1,7 @@
 package com.pikaqiu.design.pattern.structural.facade;
 
 /**
+ * 集成系统（外观类）
  * @author xiaoye
  */
 public class GiftExchangeService {
@@ -8,6 +9,10 @@ public class GiftExchangeService {
     private PointsPaymentService pointsPaymentService = new PointsPaymentService();
     private ShippingService shippingService = new ShippingService();
 
+    /**
+     * 兑换礼物
+     * @param pointsGift
+     */
     public void giftExchange(PointsGift pointsGift){
         if(qualifyService.isAvailable(pointsGift)){
             //资格校验通过
