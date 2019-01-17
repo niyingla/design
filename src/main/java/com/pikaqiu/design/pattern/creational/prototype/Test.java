@@ -8,7 +8,8 @@ public class Test {
         Mail mail = new Mail();
         mail.setContent("初始化模板");
         System.out.println("初始化mail:"+mail);
-        for(int i = 0;i < 10;i++){
+        for(int i = 0;i < 1;i++){
+            //基于内存拷贝
             Mail mailTemp = (Mail) mail.clone();
             mailTemp.setName("姓名"+i);
             mailTemp.setEmailAddress("姓名"+i+"@imooc.com");
