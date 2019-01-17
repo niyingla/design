@@ -1,7 +1,7 @@
 package com.pikaqiu.design.pattern.behavioral.strategy;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public class FanXianPromotionStrategy implements PromotionStrategy{
     @Override

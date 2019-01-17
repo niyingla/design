@@ -2,7 +2,7 @@ package com.pikaqiu.design.pattern.structural.adapter.objectadapter;
 
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public class ConcreteTarget implements Target {
     @Override

@@ -1,7 +1,7 @@
 package com.pikaqiu.design.pattern.creational.prototype.abstractprototype;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public abstract class A implements Cloneable{
     @Override

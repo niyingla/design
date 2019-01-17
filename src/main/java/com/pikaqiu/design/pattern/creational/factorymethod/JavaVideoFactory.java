@@ -1,7 +1,7 @@
 package com.pikaqiu.design.pattern.creational.factorymethod;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public class JavaVideoFactory extends VideoFactory {
     @Override

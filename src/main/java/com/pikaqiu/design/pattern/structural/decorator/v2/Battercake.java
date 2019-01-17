@@ -1,7 +1,7 @@
 package com.pikaqiu.design.pattern.structural.decorator.v2;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public class Battercake extends ABattercake {
     @Override

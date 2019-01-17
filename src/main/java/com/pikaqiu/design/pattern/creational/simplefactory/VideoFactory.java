@@ -1,7 +1,7 @@
 package com.pikaqiu.design.pattern.creational.simplefactory;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public class VideoFactory {
     public Video getVideo(Class c){

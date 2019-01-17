@@ -1,7 +1,7 @@
 package com.pikaqiu.design.pattern.structural.adapter;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public class PowerAdapter implements DC5{
     private AC220 ac220 = new AC220();

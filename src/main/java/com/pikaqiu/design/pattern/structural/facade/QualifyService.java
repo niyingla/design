@@ -1,7 +1,7 @@
 package com.pikaqiu.design.pattern.structural.facade;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public class QualifyService {
     public boolean isAvailable(PointsGift pointsGift){

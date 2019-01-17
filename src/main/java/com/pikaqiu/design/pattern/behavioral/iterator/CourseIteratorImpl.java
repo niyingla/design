@@ -3,7 +3,7 @@ package com.pikaqiu.design.pattern.behavioral.iterator;
 import java.util.List;
 
 /**
- * Created by geely.
+ * @author xiaoye
  */
 public class CourseIteratorImpl implements CourseIterator {
 

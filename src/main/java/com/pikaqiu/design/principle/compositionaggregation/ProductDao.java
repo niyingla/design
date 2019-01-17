@@ -1,7 +1,7 @@
 package com.pikaqiu.design.principle.compositionaggregation;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public class ProductDao{
     private DBConnection dbConnection;

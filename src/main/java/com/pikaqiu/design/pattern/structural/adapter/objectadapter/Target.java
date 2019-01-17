@@ -1,7 +1,7 @@
 package com.pikaqiu.design.pattern.structural.adapter.objectadapter;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public interface Target {
     void request();

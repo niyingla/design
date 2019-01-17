@@ -1,7 +1,7 @@
 package com.pikaqiu.design.pattern.structural.bridge;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public class ICBCBank extends Bank {
     public ICBCBank(Account account) {

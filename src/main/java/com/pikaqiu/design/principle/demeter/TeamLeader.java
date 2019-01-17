@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public class TeamLeader {
     public void checkNumberOfCourses(){

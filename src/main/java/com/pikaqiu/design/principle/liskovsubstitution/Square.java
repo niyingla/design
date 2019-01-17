@@ -1,7 +1,7 @@
 package com.pikaqiu.design.principle.liskovsubstitution;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public class Square implements Quadrangle {
     private long sideLength;

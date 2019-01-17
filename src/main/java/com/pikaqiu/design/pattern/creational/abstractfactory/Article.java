@@ -1,7 +1,7 @@
 package com.pikaqiu.design.pattern.creational.abstractfactory;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public abstract class Article {
     public abstract void produce();

@@ -1,7 +1,7 @@
 package com.pikaqiu.design.pattern.creational.abstractfactory;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public class PythonArticle extends Article {
     @Override

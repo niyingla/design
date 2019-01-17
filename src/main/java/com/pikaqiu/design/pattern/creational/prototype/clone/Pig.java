@@ -3,7 +3,7 @@ package com.pikaqiu.design.pattern.creational.prototype.clone;
 import java.util.Date;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public class Pig implements Cloneable{
     private String name;

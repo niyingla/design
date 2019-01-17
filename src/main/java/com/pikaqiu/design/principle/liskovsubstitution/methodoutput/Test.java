@@ -1,7 +1,7 @@
 package com.pikaqiu.design.principle.liskovsubstitution.methodoutput;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public class Test {
     public static void main(String[] args) {

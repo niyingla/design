@@ -6,7 +6,7 @@ import com.pikaqiu.design.pattern.structural.proxy.OrderServiceImpl;
 import com.pikaqiu.design.pattern.structural.proxy.db.DataSourceContextHolder;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public class OrderServiceStaticProxy {
     private IOrderService iOrderService;

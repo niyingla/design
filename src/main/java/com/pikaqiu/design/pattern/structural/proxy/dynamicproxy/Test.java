@@ -5,7 +5,7 @@ import com.pikaqiu.design.pattern.structural.proxy.Order;
 import com.pikaqiu.design.pattern.structural.proxy.OrderServiceImpl;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public class Test {
     public static void main(String[] args) {

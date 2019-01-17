@@ -1,7 +1,7 @@
 package com.pikaqiu.design.pattern.creational.prototype;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public class Mail implements Cloneable{
     private String name;

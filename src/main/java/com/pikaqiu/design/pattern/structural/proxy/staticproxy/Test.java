@@ -3,7 +3,7 @@ package com.pikaqiu.design.pattern.structural.proxy.staticproxy;
 import com.pikaqiu.design.pattern.structural.proxy.Order;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public class Test {
     public static void main(String[] args) {

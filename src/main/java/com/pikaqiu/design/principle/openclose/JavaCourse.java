@@ -1,7 +1,7 @@
 package com.pikaqiu.design.principle.openclose;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public class JavaCourse implements ICourse{
     private Integer Id;

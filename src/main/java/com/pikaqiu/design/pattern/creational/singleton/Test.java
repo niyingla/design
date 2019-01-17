@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 
 /**
- * Created by geely
+ * @author xiaoye
  */
 public class Test {
     public static void main(String[] args) throws IOException, ClassNotFoundException, NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
@@ -70,9 +70,8 @@ public class Test {
 //        System.out.println(newInstance);
 //        System.out.println(instance == newInstance);
 
+        //天然适合单例的枚举实现
         EnumInstance instance = EnumInstance.getInstance();
         instance.printTest();
-
-
     }
 }
