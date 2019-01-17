@@ -23,7 +23,7 @@ public class HungrySingleton implements Serializable,Cloneable{
 
 
     /**
-     *
+     * 禁止序列化与反序列化
      * @return
      */
     private Object readResolve(){

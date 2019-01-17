@@ -15,6 +15,10 @@ public class ThreadLocalInstance {
             return new ThreadLocalInstance();
         }
     };
+
+    /**
+     * 禁止外部创建
+     */
     private ThreadLocalInstance(){
 
     }
