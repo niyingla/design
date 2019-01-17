@@ -3,6 +3,7 @@ package com.pikaqiu.design.pattern.structural.facade;
 /**
  * 集成系统（外观类）
  * 子类操作 封装到外观类中 形成和外部的统一交互
+ * 以后实现变化  不需要修改调用调用者 在外观类中修改即可
  * @author xiaoye
  */
 public class GiftExchangeService {
