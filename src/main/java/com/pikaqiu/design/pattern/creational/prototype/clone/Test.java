@@ -13,7 +13,7 @@ public class Test {
         Pig pig2 = (Pig) pig1.clone();
         System.out.println(pig1);
         System.out.println(pig2);
-
+        //两个对象的birthday指向的是同一个date对象，所以修改时会同时变动。
         pig1.getBirthday().setTime(666666666666L);
 
         System.out.println(pig1);

@@ -34,7 +34,7 @@ public class Pig implements Cloneable{
     protected Object clone() throws CloneNotSupportedException {
         Pig pig = (Pig)super.clone();
 
-        //深克隆
+        //深克隆  防止修改同步变化
         pig.birthday = (Date) pig.birthday.clone();
         return pig;
     }

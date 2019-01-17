@@ -30,6 +30,11 @@ public class HungrySingleton implements Serializable,Cloneable{
         return hungrySingleton;
     }
 
+    /**
+     * 防止克隆破坏
+     * @return
+     * @throws CloneNotSupportedException
+     */
     @Override
     protected Object clone() throws CloneNotSupportedException {
         return getInstance();
