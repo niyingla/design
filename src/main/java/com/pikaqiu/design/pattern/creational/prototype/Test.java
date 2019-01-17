@@ -1,6 +1,9 @@
 package com.pikaqiu.design.pattern.creational.prototype;
 
 /**
+ * 深克隆 类内部属性也克隆
+ * 浅克隆 类内部属性指向同一个地址
+ *
  * @author xiaoye
  */
 public class Test {
