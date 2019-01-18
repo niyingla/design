@@ -5,6 +5,9 @@ package com.pikaqiu.design.pattern.structural.decorator.v2;
  * @author xiaoye
  */
 public abstract class AbstractDecorator extends ABattercake {
+    /**
+     * 被装饰的类
+     */
     private ABattercake aBattercake;
 
     /**
