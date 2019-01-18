@@ -1,6 +1,7 @@
 package com.pikaqiu.design.pattern.structural.decorator.v2;
 
 /**
+ * 香肠煎饼装饰着
  * @author xiaoye
  */
 public class SausageDecorator extends AbstractDecorator{
