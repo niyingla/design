@@ -14,11 +14,19 @@ public class EggDecorator extends AbstractDecorator {
 
     }
 
+    /**
+     * 对方法进行增强
+     * @return
+     */
     @Override
     protected String getDesc() {
         return super.getDesc()+" 加一个鸡蛋";
     }
 
+    /**
+     *  对方法进行增强
+     * @return
+     */
     @Override
     protected int cost() {
         return super.cost()+1;
