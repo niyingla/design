@@ -1,6 +1,8 @@
 package com.pikaqiu.design.pattern.structural.flyweight;
 
 /**
+ * 享元模式
+ * 复用已存在的对象
  * @author xiaoye
  */
 public class Test {
