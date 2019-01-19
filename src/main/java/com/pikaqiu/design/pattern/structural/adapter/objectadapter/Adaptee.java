@@ -1,6 +1,7 @@
 package com.pikaqiu.design.pattern.structural.adapter.objectadapter;
 
 /**
+ * 被适配的类
  * @author xiaoye
  */
 public class Adaptee {
