@@ -1,6 +1,7 @@
 package com.pikaqiu.design.pattern.structural.adapter;
 
 /**
+ * 适配器实现类  还可以有10V 15V 20V适配器实现类
  * @author xiaoye
  */
 public class PowerAdapter implements DC5{

@@ -1,6 +1,7 @@
 package com.pikaqiu.design.pattern.structural.adapter;
 
 /**
+ * 被适配类
  * @author xiaoye
  */
 public class AC220 {
