@@ -12,7 +12,9 @@ public class Test {
         Order order = new Order();
 //        order.setUserId(2);
         order.setUserId(1);
-        IOrderService orderServiceDynamicProxy = (IOrderService) new OrderServiceDynamicProxy(new OrderServiceImpl()).bind();
+        //获取到被代理后的类实例
+        IOrderService orderServiceDynamicProxy = (IOrderService)
+                new OrderServiceDynamicProxy(new OrderServiceImpl()).bind();
 
         orderServiceDynamicProxy.saveOrder(order);
     }

@@ -8,6 +8,8 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
 /**
+ * cglib 代理是生成一个子类
+ * jdk 是生成一个新类
  * @author xiaoye
  */
 public class OrderServiceDynamicProxy implements InvocationHandler {
@@ -20,6 +22,7 @@ public class OrderServiceDynamicProxy implements InvocationHandler {
 
     public Object bind(){
         Class cls = target.getClass();
+//                                                                     实现了InvocationHandler的代理类
         return Proxy.newProxyInstance(cls.getClassLoader(),cls.getInterfaces(),this);
     }
 
