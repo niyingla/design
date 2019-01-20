@@ -1,6 +1,7 @@
 package com.pikaqiu.design.pattern.structural.composite;
 
 /**
+ * 重写字节需要的
  * @author xiaoye
  */
 public class Course extends CatalogComponent {

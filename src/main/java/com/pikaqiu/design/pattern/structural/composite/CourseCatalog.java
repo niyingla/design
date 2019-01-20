@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * 重写字节需要的
  * @author xiaoye
  */
 public class CourseCatalog extends CatalogComponent {

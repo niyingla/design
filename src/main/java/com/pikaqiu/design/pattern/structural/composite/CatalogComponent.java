@@ -1,6 +1,7 @@
 package com.pikaqiu.design.pattern.structural.composite;
 
 /**
+ * 定义所有方法
  * @author xiaoye
  */
 public abstract class CatalogComponent {
