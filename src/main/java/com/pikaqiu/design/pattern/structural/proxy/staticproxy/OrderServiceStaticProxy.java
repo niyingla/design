@@ -6,6 +6,7 @@ import com.pikaqiu.design.pattern.structural.proxy.OrderServiceImpl;
 import com.pikaqiu.design.pattern.structural.proxy.db.DataSourceContextHolder;
 
 /**
+ * 静态代理类
  * @author xiaoye
  */
 public class OrderServiceStaticProxy {
