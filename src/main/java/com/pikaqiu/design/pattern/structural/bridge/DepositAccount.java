@@ -1,6 +1,7 @@
 package com.pikaqiu.design.pattern.structural.bridge;
 
 /**
+ * 定期账号
  * @author xiaoye
  */
 public class DepositAccount implements Account {

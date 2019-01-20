@@ -1,6 +1,7 @@
 package com.pikaqiu.design.pattern.structural.bridge;
 
 /**
+ * 活期账号
  * @author xiaoye
  */
 public class SavingAccount implements Account {
