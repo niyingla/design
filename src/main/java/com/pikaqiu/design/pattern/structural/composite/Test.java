@@ -1,6 +1,8 @@
 package com.pikaqiu.design.pattern.structural.composite;
 
 /**
+ *  适合可以忽略层次差异的树状结构
+ *  可以表示对象的全部或者部分层次
  * @author xiaoye
  */
 public class Test {
