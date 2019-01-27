@@ -28,6 +28,7 @@ public class Test {
         System.out.println("-----课程列表-----");
         printCourses(courseAggregate);
 
+        //操作数据
         courseAggregate.removeCourse(course4);
         courseAggregate.removeCourse(course5);
 
@@ -36,9 +37,16 @@ public class Test {
     }
 
 
+    /**
+     * 打印所有课程
+     * @param courseAggregate
+     */
     public static void printCourses(CourseAggregate courseAggregate){
+        //获取课程迭代器
         CourseIterator courseIterator= courseAggregate.getCourseIterator();
+        //判断是否是最后一个
         while(!courseIterator.isLastCourse()){
+            //获取下一个
             Course course=courseIterator.nextCourse();
             System.out.println(course.getName());
         }
