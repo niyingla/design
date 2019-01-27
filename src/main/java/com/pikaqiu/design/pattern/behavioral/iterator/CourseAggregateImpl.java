@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * 课程聚合类
  * @author xiaoye
  */
 public class CourseAggregateImpl implements CourseAggregate {

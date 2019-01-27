@@ -1,6 +1,7 @@
 package com.pikaqiu.design.pattern.behavioral.iterator;
 
 /**
+ * 迭代器模式  很少自己手动实践 一般都用现成的
  * @author xiaoye
  */
 public class Test {
