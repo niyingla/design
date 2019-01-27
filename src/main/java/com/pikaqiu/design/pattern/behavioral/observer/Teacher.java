@@ -10,6 +10,8 @@ import java.util.Observer;
  * @description:
  * @author: xiaoye
  * @create: 2019-01-27 23:13
+ *
+ * Observer 观察者接口
  **/
 @Data
 public class Teacher implements Observer {
