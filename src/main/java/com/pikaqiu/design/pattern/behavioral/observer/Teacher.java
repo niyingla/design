@@ -14,11 +14,16 @@ import java.util.Observer;
 @Data
 public class Teacher implements Observer {
 
+    public Teacher(String teacherName) {
+        this.teacherName = teacherName;
+    }
+
     private String teacherName;
 
     /**
      * 动作修改方法
-     * @param o 被观察的对象
+     *
+     * @param o   被观察的对象
      * @param arg 参数
      */
     @Override
@@ -26,6 +31,6 @@ public class Teacher implements Observer {
         Course course = (Course) o;
         Question question = (Question) arg;
         System.out.println(teacherName + "老师的" +
-                course.getCourseName() + "课程接收到一个" + question.getUserName());
+                course.getCourseName() + "课程接收到一个" + question.getUserName() + "提交的一个问题");
     }
 }
