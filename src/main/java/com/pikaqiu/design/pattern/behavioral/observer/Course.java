@@ -4,6 +4,7 @@ import lombok.Data;
 
 import java.util.Observable;
 
+
 /**
  * @program: design_pattern
  * @description:
@@ -29,4 +30,3 @@ public class Course extends Observable {
         notifyObservers(question);
     }
 }
-

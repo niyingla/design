@@ -23,7 +23,7 @@ public class Teacher implements Observer {
     private String teacherName;
 
     /**
-     * 动作修改方法
+     * 被观察者动作变化后调用的方法
      *
      * @param o   被观察的对象
      * @param arg 参数
