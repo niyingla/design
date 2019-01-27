@@ -1,6 +1,8 @@
 package com.pikaqiu.design.pattern.structural.adapter;
 
 /**
+ * 适配器类
+ * 实现相同接口 把现有结果适配成需要结果
  * 适配器实现类  还可以有10V 15V 20V适配器实现类
  * @author xiaoye
  */

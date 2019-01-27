@@ -11,6 +11,7 @@ public class ABCBank extends Bank {
     @Override
     Account openAccount() {
         System.out.println("打开中国农业银行账号");
+        //委托动作
         account.openAccount();
         return account;
     }
