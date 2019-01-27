@@ -1,6 +1,8 @@
 package com.pikaqiu.design.pattern.behavioral.templatemethod;
 
 /**
+ * 定义好 模板的内容
+ * 具体需要实现的方法  开放给子类
  * @author xiaoye
  */
 public class Test {
