@@ -1,6 +1,7 @@
 package com.pikaqiu.design.pattern.behavioral.strategy;
 
 /**
+ * 策略实践类
  * @author xiaoye
  */
 public class LiJianPromotionStrategy implements PromotionStrategy {
