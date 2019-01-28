@@ -1,8 +1,7 @@
 package com.pikaqiu.design.pattern.behavioral.observer;
 
-import javax.swing.undo.CannotUndoException;
-
 /**
+ * 观察者模式
  * @program: design_pattern
  * @description:
  * @author: xiaoye
