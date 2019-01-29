@@ -19,10 +19,19 @@ public abstract class AbstractLogger {
      */
     protected AbstractLogger nextLogger;
 
+    /**
+     * 设置链上下一个元素
+     * @param nextLogger
+     */
     public void setNextLogger(AbstractLogger nextLogger){
         this.nextLogger = nextLogger;
     }
 
+    /**
+     * 日志信息处理
+     * @param level
+     * @param message
+     */
     public void logMessage(int level, String message){
         if(this.level <= level){
             write(message);
@@ -32,5 +41,9 @@ public abstract class AbstractLogger {
         }
     }
 
+    /**
+     * 记录日志 具体实现叫交给实际实现元素
+     * @param message
+     */
     abstract protected void write(String message);
 }
