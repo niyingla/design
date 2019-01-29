@@ -10,6 +10,7 @@ package com.pikaqiu.design.pattern.behavioral.command.web;
 public class CommandPatternDemo {
     public static void main(String[] args) {
 
+        //创建请求类
         Stock abcStock = new Stock();
         //创建具体命令类
         BuyStock buyStockOrder = new BuyStock(abcStock);
