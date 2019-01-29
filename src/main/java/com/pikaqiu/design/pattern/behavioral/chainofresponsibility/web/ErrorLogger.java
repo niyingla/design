@@ -1,6 +1,7 @@
 package com.pikaqiu.design.pattern.behavioral.chainofresponsibility.web;
 
 /**
+ * 错误日志输出
  * @program: design_pattern
  * @description:
  * @author: xiaoye
