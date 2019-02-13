@@ -18,6 +18,7 @@ public class ArticleApprover extends Approver {
     public void deploy(Course course) {
         if (StringUtils.isNotEmpty(course.getArticle())) {
             System.out.println(course.getName() + "含有手记，批准");
+            //判断链上是否还有下一个元素
             if (nextApprover != null) {
                 nextApprover.deploy(course);
             }
