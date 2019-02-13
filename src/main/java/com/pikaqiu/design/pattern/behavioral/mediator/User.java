@@ -22,7 +22,7 @@ public class User {
     }
 
     /**
-     * 调用中介者进行统一交互
+     * 调用中介者进行统一交互或操作
      * @param message
      */
     public void sendMessage(String message) {
