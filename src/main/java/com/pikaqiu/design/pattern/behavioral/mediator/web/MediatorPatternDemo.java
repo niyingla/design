@@ -1,6 +1,7 @@
 package com.pikaqiu.design.pattern.behavioral.mediator.web;
 
 /**
+ * 中介者模式
  * 使用 User 对象来显示他们之间的通信
  * @program: design_pattern
  * @description:
