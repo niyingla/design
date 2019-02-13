@@ -20,8 +20,8 @@ public class VideoApprover extends Approver {
 
         if (StringUtils.isNotEmpty(course.getVideo())) {
             System.out.println(course.getName() + "含有视频，批准");
-            if (approver != null) {
-                approver.deploy(course);
+            if (nextApprover != null) {
+                nextApprover.deploy(course);
             }
         } else {
             System.out.println(course.getName() + "不包含视频，不批准");
