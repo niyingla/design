@@ -13,8 +13,9 @@ import com.pikaqiu.design.pattern.behavioral.chainofresponsibility.VideoApprover
  **/
 public class Test {
     public static void main(String[] args) {
-        //责任对象
+        //创建责任对象1
         Approver articleApprover = new ArticleApprover();
+        //创建责任对象2
         Approver videoApprover = new VideoApprover();
 
         //通过责任的对象
