@@ -11,6 +11,11 @@ import java.util.Date;
  **/
 public class StudyGroup {
 
+    /**
+     * 中介统一展示消息方法
+     * @param user
+     * @param message
+     */
     public static void showMessage(User user, String message) {
         System.out.println(new Date().toString() + " [" + user.getName() + "] : " + message);
     }
