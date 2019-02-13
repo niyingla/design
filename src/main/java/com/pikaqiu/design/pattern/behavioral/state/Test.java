@@ -1,8 +1,9 @@
 package com.pikaqiu.design.pattern.behavioral.state;
 
 /**
+ * 状态测试类
  * @program: design_pattern
- * @description: 、
+ * @description: 如果想加一个状态类，直接new就行
  * @author: xiaoye
  * @create: 2019-02-13 22:06
  **/
@@ -21,6 +22,6 @@ public class Test {
         courseVideoContext.stop();
 
         System.out.println("当前状态：" + courseVideoContext.getCourseVideoState().getClass().getSimpleName());
-
+        courseVideoContext.speed();
     }
 }
