@@ -1,7 +1,7 @@
 package com.pikaqiu.design.pattern.behavioral.mediator;
 
 /**
- * 测试类
+ * 中介者模式测试类
  * @program: design_pattern
  * @description:
  * @author: xiaoye

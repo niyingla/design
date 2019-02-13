@@ -26,6 +26,7 @@ public class User {
      * @param message
      */
     public void sendMessage(String message) {
+        // ***统一操作
         StudyGroup.showMessage(this, message);
     }
 }
