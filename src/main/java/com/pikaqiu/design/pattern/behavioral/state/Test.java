@@ -1,7 +1,7 @@
 package com.pikaqiu.design.pattern.behavioral.state;
 
 /**
- * 状态测试类
+ * 状态模式测试类
  * @program: design_pattern
  * @description: 每个状态下，执行同样的操作效果可能不同。如果想加一个状态类，直接new就行
  * @author: xiaoye
