@@ -1,9 +1,4 @@
-package com.pikaqiu.design.pattern.behavioral.chainofresponsibility.web;
-
-import com.pikaqiu.design.pattern.behavioral.chainofresponsibility.Approver;
-import com.pikaqiu.design.pattern.behavioral.chainofresponsibility.ArticleApprover;
-import com.pikaqiu.design.pattern.behavioral.chainofresponsibility.Course;
-import com.pikaqiu.design.pattern.behavioral.chainofresponsibility.VideoApprover;
+package com.pikaqiu.design.pattern.behavioral.chainofresponsibility;
 
 /**
  * @program: design_pattern
