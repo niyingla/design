@@ -2,6 +2,7 @@ package com.pikaqiu.design.pattern.creational.singleton;
 
 /**
  * @author xiaoye
+ * 枚举天然适合单利
  * 枚举实现单利
  */
 public enum EnumInstance {
