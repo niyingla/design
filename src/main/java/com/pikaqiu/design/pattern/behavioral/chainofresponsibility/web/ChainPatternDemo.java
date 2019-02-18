@@ -8,6 +8,10 @@ package com.pikaqiu.design.pattern.behavioral.chainofresponsibility.web;
  **/
 public class ChainPatternDemo {
 
+    /**
+     * 链上打印日志
+     * @return
+     */
     private static AbstractLogger getChainOfLoggers(){
 
         AbstractLogger errorLogger = new ErrorLogger(AbstractLogger.ERROR);
@@ -21,8 +25,9 @@ public class ChainPatternDemo {
     }
 
     public static void main(String[] args) {
+        //获取日志链
         AbstractLogger loggerChain = getChainOfLoggers();
-
+        //链上打印日志
         loggerChain.logMessage(AbstractLogger.INFO, "This is an information.");
 
         loggerChain.logMessage(AbstractLogger.DEBUG, "This is an debug level information.");

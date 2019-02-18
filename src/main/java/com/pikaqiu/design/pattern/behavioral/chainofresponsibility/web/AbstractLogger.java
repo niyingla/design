@@ -33,9 +33,12 @@ public abstract class AbstractLogger {
      * @param message
      */
     public void logMessage(int level, String message){
+        //判断日志等级 是否满足条件
         if(this.level <= level){
+            //满足  写日志
             write(message);
         }
+        //调用链上 下一个对象处理消息
         if(nextLogger !=null){
             nextLogger.logMessage(level, message);
         }
