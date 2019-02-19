@@ -9,6 +9,11 @@ public class CourseActualBuilder extends CourseBuilder {
     private Course course = new Course();
 
 
+    /**
+     * 调用建造者模式的方法
+     * 给需要建造的对象设置属性
+     * @param courseName
+     */
     @Override
     public void buildCourseName(String courseName) {
         course.setCourseName(courseName);
