@@ -5,7 +5,10 @@ package com.pikaqiu.design.pattern.creational.builder;
  */
 public class CourseActualBuilder extends CourseBuilder {
 
-    //建造者模式 初始化建造对象   每个建造类可以是不同的对象
+    /**
+     * 建造者模式 初始化建造对象
+     * 每个建造类可以是不同的对象
+     */
     private Course course = new Course();
 
 
