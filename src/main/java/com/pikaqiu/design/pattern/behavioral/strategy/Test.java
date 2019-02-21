@@ -18,8 +18,10 @@ public class Test {
 
     public static void main(String[] args) {
         //创建策略调用类  传入对应的策略
-        PromotionStrategy liJian = PromotionStrategyFactory.getPromotionStrategy("MANJIAN1");
-        PromotionActivity promotionActivity = new PromotionActivity(liJian);
+        PromotionStrategy strategy = PromotionStrategyFactory.getPromotionStrategy("MANJIAN");
+        //创建策略调用对象 传入策略作为参数
+        PromotionActivity promotionActivity = new PromotionActivity(strategy);
+        //执行策略方法
         promotionActivity.executePromotionStrategy();
     }
 }

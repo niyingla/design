@@ -12,6 +12,10 @@ import java.util.Map;
  * @create: 2019-01-27 20:05
  **/
 public class PromotionStrategyFactory {
+
+    /**
+     * 策略模式集合
+     */
     private static Map<String, PromotionStrategy> PromotionStrategyMap = new HashMap<String, PromotionStrategy>();
 
     /**
@@ -27,8 +31,14 @@ public class PromotionStrategyFactory {
     private PromotionStrategyFactory() {
     }
 
+    /**
+     * 根据常量名获取对应策略方法
+     * @param promotionStrategyName
+     * @return
+     */
     public static PromotionStrategy getPromotionStrategy(String promotionStrategyName) {
         PromotionStrategy promotionStrategy = PromotionStrategyMap.get(promotionStrategyName);
+        //不存在既定的策略 则返回空策略
         return promotionStrategy == null ? new EmptyPromotionStrategy() : promotionStrategy;
 
     }
