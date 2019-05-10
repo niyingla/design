@@ -15,7 +15,7 @@ public class Test {
 
         //通过责任的对象
         Course course = new Course();
-        course.setName("java设计模式 --肖烨");
+        course.setName("java设计模式 --肖烨        ");
         course.setArticle("java设计模式的手记");
         course.setVideo("java设计模式的视频");
 
