@@ -21,7 +21,7 @@ public class Test {
 
         //设置到链上下一个元素
         articleApprover.setNextApprover(videoApprover);
-        //调用
+        //调用                链上传递参数
         articleApprover.deploy(course);
 
     }
