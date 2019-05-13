@@ -2,11 +2,15 @@ package com.pikaqiu.design.pattern.behavioral.strategy.web;
 
 /**
  * @program: design_pattern
- * @description:
+ * @description: 策略执行对象
  * @author: xiaoye
  * @create: 2019-02-19 16:58
  **/
 public class Context {
+
+    /**
+     * 目标策略
+     */
     private Strategy strategy;
 
 
@@ -19,7 +23,7 @@ public class Context {
     }
 
     /**
-     *
+     *  策略执行方法
      * @param num1
      * @param num2
      * @return

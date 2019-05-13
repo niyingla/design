@@ -1,6 +1,7 @@
 package com.pikaqiu.design.pattern.behavioral.strategy.web;
 
 /**
+ * 执行策略和执行目标 是分开的
  * @program: design_pattern
  * @description:
  * @author: xiaoye
@@ -9,6 +10,7 @@ package com.pikaqiu.design.pattern.behavioral.strategy.web;
 public class StrategyPatternDemo {
 
     public static void main(String[] args) {
+
         Context context = new Context(new OperationAdd());
         System.out.println("10 + 5 = " + context.executeStrategy(10, 5));
 
