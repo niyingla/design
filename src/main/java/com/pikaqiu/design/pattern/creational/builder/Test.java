@@ -5,7 +5,7 @@ package com.pikaqiu.design.pattern.creational.builder;
  */
 public class Test {
     public static void main(String[] args) {
-        //创建课程建设类
+        //创建课程建设类（参数）
         CourseBuilder courseBuilder = new CourseActualBuilder();
         Coach coach = new Coach();
         //根据实际的需要创建的对象设置建造类

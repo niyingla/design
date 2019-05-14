@@ -87,8 +87,5 @@ public class Course {
             //构造创建外部实例
             return new Course(this);
         }
-
-
-
     }
 }
