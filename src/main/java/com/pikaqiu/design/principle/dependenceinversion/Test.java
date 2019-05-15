@@ -1,6 +1,7 @@
 package com.pikaqiu.design.principle.dependenceinversion;
 
 /**
+ * 依赖倒置
  * 抽象更稳定 来搭建架构
  * 依赖倒置原则 抽象的目的制定好规范和契约 以便于以后扩展
  * 接口就是契约  总结 面向接口编程

@@ -1,6 +1,7 @@
 package com.pikaqiu.design.principle.liskovsubstitution;
 
 /**
+ * 里氏替换原则
  * 设计时避免继承泛滥，父子类行为不一致。
  * 对继承形成约束
  */

@@ -1,6 +1,7 @@
 package com.pikaqiu.design.principle.openclose;
 
 /**
+ * 开闭原则
  * @author xiaoye
  */
 public class Test {
