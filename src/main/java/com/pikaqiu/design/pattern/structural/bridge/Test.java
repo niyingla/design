@@ -8,6 +8,9 @@ package com.pikaqiu.design.pattern.structural.bridge;
  * 1、抽象和实现的分离。
  * 2、优秀的扩展能力。
  * 3、实现细节对客户透明。
+ *
+ * 用两个（几个）抽象作为嘴定层的衔接
+ * 如抽象银行&抽象账号  实现的话 需要实现两个 （对应账号 + 对应银行）
  * @author xiaoye
  */
 public class Test {
