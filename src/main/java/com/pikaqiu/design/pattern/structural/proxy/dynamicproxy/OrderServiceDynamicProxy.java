@@ -22,7 +22,7 @@ public class OrderServiceDynamicProxy implements InvocationHandler {
 
     public Object bind(){
         Class cls = target.getClass();
-//                                                                     实现了InvocationHandler的代理类
+        //实现了InvocationHandler的代理类  返回代理实例（基于接口  jdk）
         return Proxy.newProxyInstance(cls.getClassLoader(),cls.getInterfaces(),this);
     }
 

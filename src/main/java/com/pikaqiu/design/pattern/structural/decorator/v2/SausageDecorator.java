@@ -16,6 +16,7 @@ public class SausageDecorator extends AbstractDecorator{
 
     @Override
     protected String getDesc() {
+        System.out.println(1);
         return super.getDesc()+" 加一根香肠";
     }
 

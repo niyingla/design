@@ -1,14 +1,13 @@
 package com.pikaqiu.design.pattern.structural.composite;
 
 /**
+ *  组合模式
  *  适合可以忽略层次差异的树状结构
  *  可以表示对象的全部或者部分层次
  * @author xiaoye
  */
 public class Test {
     public static void main(String[] args) {
-        CatalogComponent linuxCourse = new Course("Linux课程",11);
-        CatalogComponent windowsCourse = new Course("Windows课程",11);
 
         CatalogComponent javaCourseCatalog = new CourseCatalog("Java课程目录",2);
 
@@ -20,14 +19,12 @@ public class Test {
         javaCourseCatalog.add(mmallCourse2);
         javaCourseCatalog.add(designPattern);
 
+        CatalogComponent linuxCourse = new Course("Linux课程",11);
+        CatalogComponent windowsCourse = new Course("Windows课程",11);
         CatalogComponent imoocMainCourseCatalog = new CourseCatalog("慕课网课程主目录",1);
         imoocMainCourseCatalog.add(linuxCourse);
         imoocMainCourseCatalog.add(windowsCourse);
         imoocMainCourseCatalog.add(javaCourseCatalog);
-
         imoocMainCourseCatalog.print();
-
-
-
     }
 }
