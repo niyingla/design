@@ -17,5 +17,11 @@ public class Test {
         Article article = courseFactory.getArticle();
         video.produce();
         article.produce();
+        
+        CourseFactory courseFactory1 = new JavaCourseFactory();
+        Video video1 = courseFactory1.getVideo();
+        Article article1 = courseFactory1.getArticle();
+        video1.produce();
+        article1.produce();
     }
 }
