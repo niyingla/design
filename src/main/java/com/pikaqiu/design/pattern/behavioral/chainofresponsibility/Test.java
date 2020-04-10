@@ -13,7 +13,7 @@ public class Test {
         //创建责任对象2
         Approver videoApprover = new VideoApprover();
 
-        //通过责任的对象
+        //创建通过责任链的对象
         Course course = new Course();
         course.setName("java设计模式 --肖烨        ");
         course.setArticle("java设计模式的手记");
