@@ -14,7 +14,8 @@ public class StaticInnerClassSingleton {
     }
 
     /**
-     * 静态方法被调用 满足初始化条件  初始化时会先出事内部类 这时候就创建了 staticInnerClassSingleton
+     * 静态方法被调用 满足初始化条件 调用前
+     * 初始化时会先初始内部类 这时候就创建了 staticInnerClassSingleton
      * @return
      */
     public static StaticInnerClassSingleton getInstance(){
@@ -28,6 +29,10 @@ public class StaticInnerClassSingleton {
         if(InnerClass.staticInnerClassSingleton != null){
             throw new RuntimeException("单例构造器禁止反射调用");
         }
+    }
+
+    public static void main(String[] args) {
+        getInstance();
     }
 
 }
