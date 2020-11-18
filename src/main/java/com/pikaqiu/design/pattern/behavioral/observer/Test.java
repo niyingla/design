@@ -10,6 +10,11 @@ package com.pikaqiu.design.pattern.behavioral.observer;
 public class Test {
     public static void main(String[] args) {
 
+        t1();
+    }
+
+
+    private static void t1() {
         Course course = new Course("java设计模式");
         Teacher teacher1 = new Teacher("小肖烨");
         Teacher teacher2 = new Teacher("小微笑");
