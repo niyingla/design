@@ -15,8 +15,12 @@ public class GuavaEventTest {
         //事件检测对象
         EventBus eventBus = new EventBus();
         GuavaEvent guavaEvent = new GuavaEvent();
+        GuavaEvent1 guavaEvent1 = new GuavaEvent1();
+
         //注册需要观察的对象的方法
         eventBus.register(guavaEvent);
+        eventBus.register(guavaEvent1);
+
         //调用触发观察
         eventBus.post("post调用啊");
     }

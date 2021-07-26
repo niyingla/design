@@ -10,12 +10,16 @@ import com.pikaqiu.design.pattern.structural.proxy.OrderServiceImpl;
 public class Test {
     public static void main(String[] args) {
         Order order = new Order();
-//        order.setUserId(2);
         order.setUserId(1);
         //获取到被代理后的类实例
         IOrderService orderServiceDynamicProxy = (IOrderService)
                 new OrderServiceDynamicProxy(new OrderServiceImpl()).bind();
-
+        //代理调用
         orderServiceDynamicProxy.saveOrder(order);
+
+        //原生调用
+        OrderServiceImpl orderService = new OrderServiceImpl();
+        System.out.println("------------------------------");
+        orderService.saveOrder(order);
     }
 }

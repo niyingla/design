@@ -8,7 +8,7 @@ import com.google.common.eventbus.Subscribe;
  * @author: xiaoye
  * @create: 2019-01-28 00:01
  **/
-public class GuavaEvent {
+public class GuavaEvent1 {
 
     /**
      * 调用观察方法
@@ -17,9 +17,6 @@ public class GuavaEvent {
      */
     @Subscribe
     public void postEvent(String str){
-        if(1 ==1 ){
-            throw new RuntimeException("");
-        }
         System.out.println("观察者方法被调用内容是："+str);
     }
 }
