@@ -2,6 +2,8 @@ package com.pikaqiu.design.pattern.behavioral.observer;
 
 import com.google.common.eventbus.Subscribe;
 
+import java.util.Random;
+
 /**
  * @program: design_pattern
  * @description:
@@ -17,9 +19,9 @@ public class GuavaEvent {
      */
     @Subscribe
     public void postEvent(String str){
-        if(1 ==1 ){
-            throw new RuntimeException("");
+        if (new Random().nextBoolean()) {
+            throw new RuntimeException("报错啦");
         }
-        System.out.println("观察者方法被调用内容是："+str);
+        System.out.println("观察者方法被调用内容是：" + str);
     }
 }
